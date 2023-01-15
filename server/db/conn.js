@@ -1,3 +1,5 @@
+//currently unused, this is an example to show connection to mongodb
+
 const { MongoClient } = require("mongodb");
 const Db = process.env.ATLAS_URI;
 const client = new MongoClient(Db, {

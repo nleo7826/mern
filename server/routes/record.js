@@ -1,3 +1,5 @@
+//currently unused, this is an example to show connection to mongodb
+
 const express = require("express");
  
 // recordRoutes is an instance of the express router.
