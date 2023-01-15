@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.about,
+.demo,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.about {
   background-image: url('/public/images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
   font-size: 100px;
 }
 
-.products {
+.demo {
   background-image: url('/public/images/img-1.jpg');
   background-position: center;
   background-size: fill;

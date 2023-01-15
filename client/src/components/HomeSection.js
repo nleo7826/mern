@@ -3,7 +3,8 @@ import '../App.css';
 import { Button } from './Button';
 import './HomeSection.css';
 
-function HeroSection() {
+function HomeSection() {
+  
   return (
     <div className='home-container'>
       <img src={'images/kathakali-home.jpg'} alt="kathakali-home" 
@@ -23,14 +24,17 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          // onClick={console.log('hey')}
+          // onClick={() => setShowModal(true)}
         >
           DISCOVER KATHAKALI <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
+    
   );
 }
+
+export default HomeSection;
 
 /* <iframe 
 title="YouTube video player"
@@ -42,4 +46,4 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media;
       gyroscope; picture-in-picture; web-share" 
 allowfullscreen
 ></iframe> */
-export default HeroSection;
+
